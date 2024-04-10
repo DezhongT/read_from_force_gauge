@@ -7,6 +7,7 @@ def try_convert_to_float(s):
     try:
         return float(s)
     except ValueError:
+        print("something wrong")
         return 0.0
 
 
